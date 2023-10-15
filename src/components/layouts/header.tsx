@@ -1,5 +1,5 @@
 import './styles.scss';
-import { assetUrl } from '../../helpers/assets';
+import { assetUrl } from '@/helpers/assets';
 
 export default function Header(props: {title: string}) {
     return <>

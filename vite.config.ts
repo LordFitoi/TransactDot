@@ -10,8 +10,8 @@ export default defineConfig({
   base: "http://localhost:8888/",
   resolve: {
     alias: {
-      "~": path.resolve(__dirname, "./src"),
-      "%": path.resolve(__dirname, "./public"),
+      "@": path.resolve(__dirname, "./src"),
+      "public": path.resolve(__dirname, "./public")
     }
   }
 })
