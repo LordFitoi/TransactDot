@@ -42,3 +42,49 @@
         }
     }
 }
+
+
+.transaction__form {
+    position: fixed;
+    background-color: var(--base-white);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+
+    .form__header {
+        display: flex;
+        flex-direction: row;
+        position: sticky;
+        align-self: center;
+        top: 0;
+    
+        background-color: var(--primary-600);
+        box-shadow: var(--box-shadow-sm);
+        color: var(--base-white);
+        gap: var(--spacing-sm2);
+        margin-bottom: var(--spacing-lg2);
+        padding: var(--spacing-md1) var(--spacing-md2);
+        padding-top: var(--spacing-lg2);
+    
+    
+        button {
+            img {
+                filter: var(--filter-base-white);
+            }
+        }
+
+        span.title {
+            font-size: var(--font-size-xl);
+            font-weight: bold;
+            line-height: var(--line-height-heading);
+        }
+    
+    }
+
+    .inner {
+        padding: var(--spacing-md2);
+        padding-top: 0;
+
+    }
+}

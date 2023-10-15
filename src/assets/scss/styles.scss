@@ -8,22 +8,28 @@
     --spacing-xl: 64px;
 
 
-    --white: #ffffff;
-    --primary-100: #F4EBFF;
-    --primary-600: #7F56D9;
+    --base-white: #ffffff;
+    --primary-100: #D1E9FF;
+    --primary-600: #1570EF;
     --gray-90: #f9fafb;
     --gray-200: #eaecf0;
+    --gray-300: #D0D5DD;
     --gray-500: #667085;
+    --gray-700: #344054;
     --gray-900: #101828;
     
+    --filter-base-white: invert(100%) sepia(0%) saturate(7464%) hue-rotate(121deg) brightness(103%) contrast(109%);
+
 
     --font-size-xl: 20px;
+    --font-size-md: 16px;
     --font-size-sm: 14px;
     --font-size-xs: 12px;
     --line-height-parragraph: 1.42;
     --line-height-heading: 1.2;
 
-    --box-shadow-sm: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    --box-shadow-sm: 0px 4px 4px 0px rgba(16, 24, 40, 0.05);
+    --box-shadow-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
 * {
@@ -54,4 +60,9 @@ button {
     cursor: pointer;
     padding: 0;
     margin: 0;
+    outline: none;
+    
+    &:focus, &:active {
+        outline: none;
+    }
 }
