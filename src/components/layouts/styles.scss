@@ -1,0 +1,13 @@
+header.main__header {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: var(--spacing-md1) var(--spacing-lg1);
+    padding-top: var(--spacing-lg2);
+    margin-bottom: var(--spacing-lg2);
+    gap: var(--spacing-md1);
+    box-shadow: var(--box-shadow-sm);
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+}
