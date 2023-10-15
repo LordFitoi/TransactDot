@@ -13,16 +13,16 @@
 
 .transaction__board {
     h2 {
-        padding-left: var(--spacing-md);
-        padding-right: var(--spacing-md);
+        padding-left: var(--spacing-md2);
+        padding-right: var(--spacing-md2);
         margin-bottom: var(--spacing-sm2);
-        margin-top: var(--spacing-md);
+        margin-top: var(--spacing-md1);
     }
 
     .transaction {
         display: flex;
         gap: var(--spacing-sm1);
-        padding: var(--spacing-md);
+        padding: var(--spacing-md1) var(--spacing-md2);
         border-bottom: 1px solid var(--gray-200);
     
         .inner {
