@@ -19,6 +19,7 @@ label.input {
         /* Shadow/xs */
         box-shadow: var(--box-shadow-xs);
 
+        input[type='number'],
         input[type='text'] {
             border: none;
             outline: none;
@@ -48,4 +49,25 @@ label.input {
             }
         }
     }
+}
+
+button.add {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: 1px solid var(--primary-600);
+    background: var(--primary-600);
+
+    /* Shadow/xs */
+    box-shadow: var(--box-shadow-xs);
+}
+
+.transactions button.add {
+    position: fixed;
+    bottom: var(--spacing-md2);
+    right: var(--spacing-md2);
 }
